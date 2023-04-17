@@ -21,3 +21,4 @@
 17. git merge --about - відміняємо зливання гілок
 18. git branch -d "branchName" - видаляємо гілку з комп'ютера (локально)
 19. git push origin --delete "branchName" - видаляє гілку на сервері (origin) github
+20. git diff - показує відрізки рядків між двома версями сайту (між двома комітами)
