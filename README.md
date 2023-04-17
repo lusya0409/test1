@@ -1,10 +1,10 @@
-# test1
+# Для работи з Git Hub
 
 1. git clone - копіює репозиторій на комп'ютер
 2. git branch "branchName" - створює гілку з назвою "branchName" без кавичек
 3. git checkout "branchName" - переходить на гілку з назвою "branchName"
 4. git checkout -b "branchName" - створює гілку з назвою "branchName" і переходить на неї
-5. git add - зберігає зміни в файлах
+5. git add . - зберігає зміни в файлах
 6. git commit -m "commit messege" - підписуємо збережені зміни
    5+6. git commit -am "commit messege" - підписуємо і зберігаємо зміни
 7. git push -відправляємо зміни на сайт github
@@ -18,7 +18,8 @@
 14. git stash - зберігаємо незбережені зміни в файлах і кладемо їх в буфер обміну
 15. git stash apply - вставляємо збережені зміни з буферу обміну
 16. git merge "branchName" - зливаємо (об'єднуємо) гілку з назвою "branchName" в поточну гілку (main)
-17. git merge --about - відміняємо зливання гілок
+17. git merge --abort - відміняємо зливання гілок
 18. git branch -d "branchName" - видаляємо гілку з комп'ютера (локально)
 19. git push origin --delete "branchName" - видаляє гілку на сервері (origin) github
-20. git diff - показує відрізки рядків між двома версями сайту (між двома комітами)
+20. git diff - показує відрізки рядків між двома версями сайту (між двома комітами) (Q для виходу з режиму)
+21. git log -показує історію комітів (Q для виходу з режиму)
